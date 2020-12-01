@@ -12,4 +12,19 @@ public class Lampada{
             return false;
         }
     }
+    public void set_acesa(){
+        this.acesa = true;
+        this.meiaLuz = false;
+        this.apagada = false;
+    }
+    public void set_meiaLuz(){
+        this.acesa = false;
+        this.meiaLuz = true;
+        this.apagada = false;
+    }
+    public void set_apagada(){
+        this.acesa = false;
+        this.meiaLuz = false;
+        this.apagada = true;
+    }
 }
